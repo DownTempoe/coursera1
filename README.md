@@ -1,2 +1,1 @@
-# coursera1
-Coursera Assignment 1
+/* Add Author and Project Details here */

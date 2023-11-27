@@ -28,7 +28,7 @@
 #define SIZE (40)
 
 
-//Function that prints the statistics of an array including minimum, maximum, mean, and median.
+//Function accepts array and size of array and prints statistics including minimum, maximum, mean, and median.
 void print_statistics(int test[], int size) {
 
     printf("\nThe maximum value of the array is: %d", find_maximum(test, SIZE));
@@ -38,7 +38,7 @@ void print_statistics(int test[], int size) {
 
 }
 
-//Function prints the array to the screen
+//Function accepts array and size of array and prints the array to the screen
 void print_array(unsigned char test[], int size) {
 
     printf("\nThe array values are: ");
@@ -53,7 +53,7 @@ void print_array(unsigned char test[], int size) {
 
 }
 
-//Function returns the median value of an array
+//Function accepts array and size of array and returns the median value of an array
 int find_median(unsigned char test[], int size) {
 
     if (size % 2 != 0) {
@@ -68,7 +68,7 @@ int find_median(unsigned char test[], int size) {
   
 }
 
-//Function returns the mean of an array
+//Function accepts array and size of array and returns the mean of an array
 int find_mean(unsigned char test[], int size) {
 
     if (size == 0) {
@@ -88,7 +88,7 @@ int find_mean(unsigned char test[], int size) {
   
 }
 
-//Function returns the maximum value of an array
+//Function accepts array and size of array and returns the maximum value of an array
 int find_maximum(unsigned char test[], int size) {
 
     if (size == 0) {
@@ -112,7 +112,7 @@ int find_maximum(unsigned char test[], int size) {
 
 }
 
-//Function returns the minimum of an array
+//Function accepts array and size of array and returns the minimum of an array
 int find_minimum(unsigned char test[], int size) {
 
     if (size == 0) {
@@ -135,7 +135,7 @@ int find_minimum(unsigned char test[], int size) {
     return minimum;
 }
 
-//Function sorts the array from largest to smallest
+//Function accepts array and size of array and sorts the array from largest to smallest
 void sort_array(unsigned char test[], int size) {
 
     for (int i = 0; i < size - 1; ++i) {

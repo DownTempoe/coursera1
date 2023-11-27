@@ -9,32 +9,36 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h
+ * @brief <Header file for coursera assignment 1 >
  *
- * <Add Extended Description Here>
+ * 
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Rudyard Pue>
+ * @date <26 Nov 2023>
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
+void print_statistics(int test[], int min, int max, int mean, int median)
 
-/**
- * @brief <Add Brief Description of Function Here>
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
- */
+//Function prints the array to the screen
+void print_array(int test[])
 
+//Function returns the median value of an array
+int find_median(int test[])
+
+//Function returns the mean of an array
+int find_mean(int test[])
+
+//Function returns the maximum of an array
+int find_maximum(int test[])
+
+//Function returns the minimum of an array
+int find_minimum(int test[])
+
+//Function sorts the array from largest to smallest
+void sort_array(int test[])
 
 #endif /* __STATS_H__ */
